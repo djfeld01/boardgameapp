@@ -1,0 +1,55 @@
+
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center; 
+  margin: auto;
+  gap: 1rem;
+}
+.header{
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: grey;
+  text-decoration: none;
+  text-align: center; 
+  vertical-align: middle;
+  display: inline-block;
+  grid-column-start: span 2;
+}
+
+.roundButton{
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  width: 6rem;
+  vertical-align: middle;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  box-shadow: 2px 2px;
+  cursor: pointer;
+}
+.center{
+  padding: 1rem;
+  align-items: center;
+  background: blue;
+
+}
+.right{
+  padding: 1rem; 
+  align-items: center; 
+  background: green;
+}
+
+

@@ -1,0 +1,34 @@
+.header{
+    
+        padding: 1rem;
+        font-size: 2rem;
+        background-color: grey;
+        text-decoration: none;
+        text-align: center; 
+        vertical-align: middle;
+        display: inline-block;
+        grid-column-start: span 2;
+      
+}
+.game {
+        border-radius: 5%;
+        padding: 1em;
+        border-style: solid;
+        background-color: blue; 
+}
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center; 
+    margin: auto;
+    background-color: green;
+    gap: 1rem;
+  }
+
+  .game{
+
+  }
